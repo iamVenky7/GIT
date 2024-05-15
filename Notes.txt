@@ -92,4 +92,9 @@ fatal: your current branch 'main' does not have any commits yet
  create mode 100644 Notes.txt
 
 8459337 - everytime a change happen git create a checksum 
---  now 
+
+notes: must add to statging area before commit by git add 
+
+//Git skips the statging area 
+we can skip the statging and we can do direct commit 
+*git commit -a -m "My third commit"
