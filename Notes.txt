@@ -110,4 +110,7 @@ notes: must add to statging area before commit by git add
 
 *git add . --> add all files
 Readme.md --> md - mark down
+
 How to remove a file from git repository?
+
+*git rm --cached credentials.txt
