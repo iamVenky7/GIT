@@ -96,5 +96,14 @@ fatal: your current branch 'main' does not have any commits yet
 notes: must add to statging area before commit by git add 
 
 //Git skips the statging area 
-we can skip the statging and we can do direct commit 
+
 *git commit -a -m "My third commit"
+
+>we can skip the statging and we can do direct commit 
+
+*git diff
+>it will show changes in the file i.e. no of lines we added or changed
+
+*git diff --staged
+>this will use in stagging area 
+> it will show changes in staged area
