@@ -1,0 +1,78 @@
+GIT - Distributed version control system.
+
+Generally version controls are 3 types:
+---------------------------------------
+1.Local Version Control - Local copy
+2.Centralized Version Control System(CVCS) - central (Remote server)
+3.DVCS - It will have entire history.
+
+
+History of GIT
+--------------
+Open source project - Anyone can contribute , add new features
+Normal project (company)| proprietary project - set of limited people
+
+
+Advantages of GIT:
+------------------
+* Simple to use
+* Fast
+* Branching
+* Fully distributed
+
+Branch:
+------
+By default its branch is "master"
+
+
+After GIT installation
+----------------------
+we need to have our own identify whenever we are working with team
+
+>git config: it gives details like username, email
+>git config --global --list -> it gives global values(mail and username)
+
+To set a values:
+----------------
+>git config --global user.name = 'venky'
+>git config --global user.email = 'mailId' 
+>git commit config --globl
+
+
+Steps:
+------
+> We need to create a local repository for that we have to init
+
+*git init
+it will initialize empty repo and create .git hidden file , this .git help us track staging area, commit history
+note: files didn't relation with .git only, files only for project.
+-->Initialized empty Git repository in C:/Users/venka/OneDrive/Desktop/Git/.git/
+
+> To check status of our working directory
+ 
+*git status
+--> On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+>so, whenever we initialize by default it will give master.
+if we need main
+*git init -b main
+*git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+*git add <file name>
+>This will add file into staging area
+
+
+
+
+
+
+
