@@ -1,0 +1,8 @@
+Remote repository 
+-----------------
+which is public
+
+we have GITHUB , BITBUCKET , GITLAB 
+
+*git clone <adress>
+>it mean copying  
