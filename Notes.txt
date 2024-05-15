@@ -107,3 +107,7 @@ notes: must add to statging area before commit by git add
 *git diff --staged
 >this will use in stagging area 
 > it will show changes in staged area
+
+*git add . --> add all files
+Readme.md --> md - mark down
+How to remove a file from git repository?
