@@ -69,10 +69,27 @@ nothing to commit (create/copy files and use "git add" to track)
 
 *git add <file name>
 >This will add file into staging area
+but not commited yet!.
 
+> git status
+On branch main
 
+No commits yet
 
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)       
+        new file:   Notes.txt
 
+*git log 
+>This will helps us to know commit history 
 
+fatal: your current branch 'main' does not have any commits yet
 
+*git commit -m "My first commit"
+> -m - message
+[main (root-commit) 8459337] My first commit
+ 1 file changed, 78 insertions(+)
+ create mode 100644 Notes.txt
 
+8459337 - everytime a change happen git create a checksum 
+--  now 
