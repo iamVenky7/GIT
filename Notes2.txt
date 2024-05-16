@@ -31,13 +31,25 @@ BRANCH CREATION
 -----------------
 creating branch 
 *git checkout -b feature1 
+or 
+*git switch -c feature1
 
 to check branches
 ------------------
 *git branch 
+* git branch --all
 
 switching b/w branches 
 -------------------------
 *git checkout <branch-name>  (old)
 *git switch <branch-name> 
+* gir switch -  ( old branch)
 > helps us to change b/w branches
+
+TO DELETE BRANCH 
+-----------------
+*git branch -d feature2
+
+
+PUSH THE BRANCH TO GITHUB 
+--------------------------
