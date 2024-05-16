@@ -39,5 +39,5 @@ to check branches
 switching b/w branches 
 -------------------------
 *git checkout <branch-name>  (old)
-*git switch 
+*git switch <branch-name> 
 > helps us to change b/w branches
