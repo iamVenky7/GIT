@@ -6,3 +6,7 @@ we have GITHUB , BITBUCKET , GITLAB
 
 *git clone <adress>
 >it mean copying  
+
+how to push a local repository to remote repository 
+
+> create a repo in gitHub.
