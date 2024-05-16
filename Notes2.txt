@@ -26,3 +26,18 @@ CLONE
 *git clone <url> 
 *git log --pretty=oneline
 *git remote -v 
+
+BRANCH CREATION 
+-----------------
+creating branch 
+*git checkout -b feature1 
+
+to check branches
+------------------
+*git branch 
+
+switching b/w branches 
+-------------------------
+*git checkout <branch-name>  (old)
+*git switch 
+> helps us to change b/w branches
