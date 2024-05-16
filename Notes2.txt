@@ -10,3 +10,12 @@ we have GITHUB , BITBUCKET , GITLAB
 how to push a local repository to remote repository 
 
 > create a repo in gitHub.
+
+*git push origin main 
+
+TAGS 
+-----
+*git tag 
+*git tag -a v1.0 -m "1st release"
+*git show v1.0
+
