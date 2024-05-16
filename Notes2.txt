@@ -18,4 +18,11 @@ TAGS
 *git tag 
 *git tag -a v1.0 -m "1st release"
 *git show v1.0
+*git push origin v1.0
 
+
+CLONE 
+-----
+*git clone <url> 
+*git log --pretty=oneline
+*git remote -v 
